@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/CoverArt_ImageView"
         android:layout_width="match_parent"
         android:layout_height="206dp"
+        android:contentDescription="@string/CoverArt_ImageView"
+        android:scaleType="fitXY"
         android:src="@drawable/top" />
 
     <Space
@@ -21,7 +24,7 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:includeFontPadding="true"
-        android:text="Üvegbank"
+        android:text="@string/Welcome_TextView"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -34,39 +37,52 @@
         android:id="@+id/Q1_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mennyi megtakarítást szeretne elérni?" />
+        android:layout_marginStart="15dp"
+        android:text="@string/Q1_TextView" />
 
     <EditText
         android:id="@+id/SavingsInput_editTextNumber"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
         android:ems="10"
+        android:hint="@string/SavingsInput_editTextNumber"
         android:inputType="number" />
 
     <TextView
         android:id="@+id/Q2_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mennyi köbcentiméter csomagtérrel rendelkezik? " />
+        android:layout_marginStart="15dp"
+        android:text="@string/Q2_TextView" />
 
     <EditText
         android:id="@+id/VolumeInput_editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
         android:ems="10"
+        android:hint="@string/VolumeInput_editTextNumber"
         android:inputType="number" />
 
     <Button
         android:id="@+id/CalculateButton_Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Számítás"
+        android:layout_margin="50dp"
+        android:text="@string/CalculateButton_Button"
         android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
 
     <TextView
         android:id="@+id/Result_TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="eredmeny" />
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/Result_TextView" />
 
 </LinearLayout>

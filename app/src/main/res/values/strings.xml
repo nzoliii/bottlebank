@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Üveg Bank</string>
     <string name="welcome_msg">Helló!</string>
+    <string name="CoverArt_ImageView">Cover art</string>
+    <string name="Welcome_TextView">Szép napot!</string>
+    <string name="Q1_TextView">Mennyi megtakarítást szeretne elérni?</string>
+    <string name="SavingsInput_editTextNumber">Összeg forintban</string>
+    <string name="Q2_TextView">Mennyi köbcentiméter csomagtérrel rendelkezik?</string>
+    <string name="VolumeInput_editTextNumber">Térfogat köbcentiméterben</string>
+    <string name="CalculateButton_Button">Számítás</string>
+    <string name="Result_TextView"> 0</string>
 </resources>
