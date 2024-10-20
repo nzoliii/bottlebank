@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Üveg Bank</string>
+    <string name="welcome_msg">Helló!</string>
 </resources>
