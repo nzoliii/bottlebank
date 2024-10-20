@@ -1,4 +1,4 @@
-package com.nzoliii.bottlebank.ui.theme
+package com.peroni.bottlebank.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

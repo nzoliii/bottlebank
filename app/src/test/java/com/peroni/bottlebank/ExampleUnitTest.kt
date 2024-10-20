@@ -1,4 +1,4 @@
-package com.nzoliii.bottlebank
+package com.peroni.bottlebank
 
 import org.junit.Test
 

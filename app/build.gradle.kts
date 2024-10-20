@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.nzoliii.bottlebank"
+    namespace = "com.peroni.bottlebank"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.nzoliii.bottlebank"
+        applicationId = "com.peroni.bottlebank"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
